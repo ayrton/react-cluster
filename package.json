@@ -18,6 +18,8 @@
   },
   "main": "lib/index.js",
   "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --devtool eval --progress --colors --hot --content-base demo/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -27,5 +29,13 @@
     "data",
     "set",
     "scroll"
-  ]
+  ],
+  "devDependencies": {
+    "babel-core": "6.4.5",
+    "babel-loader": "6.2.2",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "webpack": "1.12.13",
+    "webpack-dev-server": "1.14.1"
+  }
 }
