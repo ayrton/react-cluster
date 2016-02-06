@@ -1,0 +1,31 @@
+{
+  "name": "react-cluster",
+  "version": "0.0.0",
+  "description": "React component to display large sets of data in a scroll container",
+  "homepage": "https://github.com/ayrton/react-cluster",
+  "author": {
+    "name": "Ayrton De Craene",
+    "email": "im@ayrton.be",
+    "url": "https://github.com/ayrton"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ayrton/react-cluster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayrton/react-cluster/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "cluster",
+    "data",
+    "set",
+    "scroll"
+  ]
+}
