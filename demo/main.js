@@ -1,3 +1,11 @@
-import fn from '../lib';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-fn();
+import App from './components/app';
+
+/**
+ * Render the application.
+ */
+
+const root = document.getElementById('app');
+ReactDOM.render(<App />, root);
