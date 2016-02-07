@@ -10,9 +10,16 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
         loader: 'babel-loader',
-      }
+        exclude: /node_modules/,
+      },
+    ],
+    preLoaders: [
+      {
+        test: /\.js$/,
+        loader: 'eslint-loader',
+        exclude: /node_modules/,
+      },
     ],
   },
 };

@@ -1,3 +1,5 @@
+/* @flow */
+
 import React from 'react';
 
 import Cluster from '../../../lib';
@@ -6,7 +8,7 @@ import Cluster from '../../../lib';
  * App component.
  */
 
-export default function App() {
+export default function App(): ReactElement {
   return (
     <div>
       <Cluster />
