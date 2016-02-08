@@ -1,0 +1,15 @@
+.cluster {
+  background: yellow;
+  border: 1px solid black;
+  display: block;
+  width: 300px;
+}
+
+.item {
+  background: red;
+  box-sizing: border-box;
+  display: block;
+  height: 25px;
+  margin-bottom: 5px;
+  width: 100%;
+}
