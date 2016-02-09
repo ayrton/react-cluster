@@ -1,4 +1,5 @@
 [ignore]
+.*/babel.*
 .*/fbjs/.*
 
 [include]
@@ -8,7 +9,6 @@
 [options]
 module.system=node
 module.system.node.resolve_dirname=node_modules
-module.name_mapper='^config$' -> '<PROJECT_ROOT>/app/config'
 
 [version]
 0.21.0
