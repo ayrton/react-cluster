@@ -23,8 +23,40 @@ type Props = {
   children: Array<ReactElement>,
   className: ?string,
   height: number,
+  onIndexChange: ?Function,
+  onScrollChange: ?Function,
+  onScrollEnd: ?Function,
   rowHeight: number,
 };
+```
+
+There are 3 ways to hook into the component:
+
+```js
+/**
+ * Called when the row index has changed.
+ *
+ * @param index {Number}
+ */
+
+function onIndexChange(index) {
+}
+
+/**
+ * Called when the cluster is scrolled.
+ *
+ * @param cluster {HTMLElement}
+ */
+
+function onScrollChange(cluster) {
+}
+
+/**
+ * Called when the cluster is scrolled near the end.
+ */
+
+function onScrollEnd() {
+}
 ```
 
 ## Installation
