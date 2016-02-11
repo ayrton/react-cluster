@@ -2,6 +2,31 @@
 
 React component to display large sets of data in a scroll container.
 
+![react-cluster](https://cloud.githubusercontent.com/assets/440926/12982264/eb3eed4c-d098-11e5-8dfb-652001b1f4fb.gif)
+
+
+## Usage
+
+```jsx
+<Cluster className="cluster" height={100} rowHeight={50}>
+  <span />
+  <span />
+  <span />
+  ...
+</Cluster>
+```
+
+The props types of the `Cluster` component are:
+
+```js
+type Props = {
+  children: Array<ReactElement>,
+  className: ?string,
+  height: number,
+  rowHeight: number,
+};
+```
+
 ## Installation
 
 ```sh
