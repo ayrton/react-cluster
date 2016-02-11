@@ -58,5 +58,8 @@
   },
   "peerDependencies": {
     "react": "^0.14.0"
+  },
+  "dependencies": {
+    "react-pure-render": "^1.0.2"
   }
 }

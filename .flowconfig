@@ -9,6 +9,7 @@
 [options]
 module.system=node
 module.system.node.resolve_dirname=node_modules
+esproposal.class_instance_fields=enable
 
 [version]
 0.21.0
