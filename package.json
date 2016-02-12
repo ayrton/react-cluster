@@ -1,6 +1,6 @@
 {
   "name": "react-cluster",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "React component to display large sets of data in a scroll container",
   "homepage": "https://github.com/ayrton/react-cluster",
   "author": {
@@ -16,9 +16,11 @@
   "bugs": {
     "url": "https://github.com/ayrton/react-cluster/issues"
   },
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --config ./webpack.build.config.js",
+    "clean": "rimraf dist",
+    "prepublish": "npm run clean && npm run build",
     "start": "webpack-dev-server --devtool eval --progress --colors --hot --content-base demo/",
     "test": "npm run test:lint && npm run test:unit && npm run test:flow",
     "test:flow": "flow check",
@@ -53,6 +55,7 @@
     "react": "^0.14.7",
     "react-addons-test-utils": "^0.14.7",
     "react-dom": "^0.14.7",
+    "rimraf": "^2.5.1",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1"
   },
