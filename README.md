@@ -1,4 +1,4 @@
-# react-cluster [![Build Status](https://travis-ci.org/ayrton/react-cluster.svg?branch=master)](https://travis-ci.org/ayrton/react-cluster)
+# react-cluster [![npm version](https://badge.fury.io/js/react-cluster.svg)](https://badge.fury.io/js/react-cluster) [![Build Status](https://travis-ci.org/ayrton/react-cluster.svg?branch=master)](https://travis-ci.org/ayrton/react-cluster)
 
 React component to display large sets of data in a scroll container.
 
