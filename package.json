@@ -52,7 +52,7 @@
     "eslint-plugin-react": "^3.16.1",
     "flow-bin": "^0.21.0",
     "mocha": "^2.4.5",
-    "react": "^0.14.7",
+    "react": "^15.1.0",
     "react-addons-test-utils": "^0.14.7",
     "react-dom": "^0.14.7",
     "rimraf": "^2.5.1",
