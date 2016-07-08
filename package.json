@@ -60,7 +60,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "peerDependencies": {
-    "react": "^0.14.0"
+    "react": "^15.2.1"
   },
   "dependencies": {
     "react-pure-render": "^1.0.2"
